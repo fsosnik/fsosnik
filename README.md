@@ -92,6 +92,28 @@ Premium web application for managing rentals, properties, income, expenses, and 
 
 ---
 
+## TRIAGE OS: 7-Layer Validation Framework
+
+| Layer | Name | Purpose |
+|-------|------|---------|
+| **7** | Knowledge Base | Pattern Library + Blocklist → Auto-evolution |
+| **6** | Checkpoint | Git + Audit Trail → State verification |
+| **5** | **Validation Gate (CORE)** | **Real Evidence Only → Success/Failure paths** |
+| **4** | Execution Tools | Git, Bash, Tests, Build, APIs, Validators |
+| **3** | Agent Mesh | Code, QA, Research, Risk Agents (parallelizable) |
+| **2** | Core OS | Orchestrator, task routing, agent selection |
+| **1** | Input | Task + Constraints |
+
+---
+
+## Key Principle
+
+> **If code contradicts documentation, code wins.**  
+> **If prediction contradicts production evidence, evidence wins.**  
+> **No hallucinations, no narratives.**
+
+---
+
 ## Key Metrics
 
 - **225+ tests passing** (TRIAGE OS)
@@ -109,18 +131,6 @@ Premium web application for managing rentals, properties, income, expenses, and 
 - **Company**: [bridger4u.com](https://bridger4u.com)
 - **LinkedIn**: [@fsosnik](https://linkedin.com/in/fsosnik)
 - **Email**: [fersosnik@gmail.com](mailto:fersosnik@gmail.com)
-
----
-
-## TRIAGE OS: 7-Layer Validation Framework
-
-![TRIAGE OS Layers](triage-layers.svg)
-
-### Key Principle
-
-> If code contradicts documentation, code wins.  
-> If prediction contradicts production evidence, evidence wins.  
-> No hallucinations, no narratives.
 
 ---
 
