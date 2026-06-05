@@ -20,19 +20,14 @@ I architect and build **enterprise-grade AI systems** that solve real business p
 ---
 
 ## Bridger4u Ecosystem
-Bridger4u
-│
-├─ Enterprise AI Portfolio
-│  └─ LLMs, RAG, Knowledge Graphs
-│
-├─ TRIAGE OS
-│  └─ Evidence-Driven Agentic Execution
-│
-├─ Orkest
-│  └─ AI-Powered Business Operating Platform
-│
-└─ Halo
-└─ Multi-Tenant SaaS Foundation
+
+![Bridger4u Ecosystem](ecosystem-map.svg)
+
+**Core Products:**
+- **TRIAGE OS** — Evidence-Driven Agentic Execution
+- **Enterprise AI Portfolio** — Production RAG & Multi-LLM Patterns  
+- **Orkest** — AI-Powered Business Operating Platform
+- **Halo** — Multi-Tenant SaaS Foundation
 
 ---
 
@@ -88,12 +83,12 @@ Premium web application for managing rentals, properties, income, expenses, and 
 ---
 
 ## Specializations
-AI Architecture          Enterprise Systems      Business Automation
-├─ Agentic Workflows    ├─ Multi-Tenancy        ├─ Process Mining
-├─ Knowledge Graphs     ├─ Governance           ├─ Decision Automation
-├─ RAG Systems          ├─ Compliance           ├─ Workflow Orchestration
-├─ LLM Integration      ├─ Security             ├─ Property Management
-└─ Token Optimization   └─ Scalability          └─ KPI Optimization
+
+**AI Architecture**: Agentic Workflows, Knowledge Graphs, RAG Systems, LLM Integration, Token Optimization
+
+**Enterprise Systems**: Multi-Tenancy, Governance, Compliance, Security, Scalability
+
+**Business Automation**: Process Mining, Decision Automation, Workflow Orchestration, Property Management, KPI Optimization
 
 ---
 
@@ -117,16 +112,9 @@ AI Architecture          Enterprise Systems      Business Automation
 
 ---
 
-## Latest Architectures
+## TRIAGE OS: 7-Layer Validation Framework
 
-### TRIAGE OS: 7-Layer Validation Framework
-Layer 7: Knowledge Base (Pattern Library + Blocklist)
-Layer 6: Checkpoint (Git + Audit Trail)
-Layer 5: Validation Gate ← THE CORE (Real Evidence Only)
-Layer 4: Execution Tools (Git, Bash, Tests, APIs)
-Layer 3: Agent Mesh (Code, QA, Research, Risk)
-Layer 2: Core OS (Orchestrator)
-Layer 1: Input (Task + Constraints)
+![TRIAGE OS Layers](triage-layers.svg)
 
 ### Key Principle
 
