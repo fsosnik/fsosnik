@@ -108,7 +108,7 @@ Premium web application for managing rentals, properties, income, expenses, and 
 - **Personal**: [sosnik.com.ar](https://sosnik.com.ar)
 - **Company**: [bridger4u.com](https://bridger4u.com)
 - **LinkedIn**: [@fsosnik](https://linkedin.com/in/fsosnik)
-- **Email**: [hey@sosnik.com.ar](mailto:hey@sosnik.com.ar)
+- **Email**: [fersosnik@gmail.com](mailto:fersosnik@gmail.com)
 
 ---
 
