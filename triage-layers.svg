@@ -1,60 +1,61 @@
-<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .layer-box { fill: #1a1f2e; stroke: #00d4ff; stroke-width: 2; }
-      .layer-title { font-family: 'Helvetica', Arial; font-size: 14px; font-weight: bold; fill: #00d4ff; }
-      .layer-desc { font-family: 'Monaco', monospace; font-size: 11px; fill: #a0aec0; }
-      .arrow { stroke: #48bb78; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .layer { fill: #1a1f2e; stroke: #00d4ff; stroke-width: 2; }
+      .core { stroke: #48bb78; stroke-width: 3; }
+      .title { font-family: Arial; font-size: 13px; font-weight: bold; fill: #00d4ff; }
+      .desc { font-family: monospace; font-size: 10px; fill: #a0aec0; }
+      .arrow { stroke: #48bb78; stroke-width: 2; fill: none; marker-end: url(#arr); }
     </style>
-    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
       <polygon points="0 0, 10 3, 0 6" fill="#48bb78"/>
     </marker>
   </defs>
 
-  <rect width="900" height="500" fill="#0f1419"/>
+  <rect width="800" height="380" fill="#0f1419"/>
+  
+  <text x="400" y="20" class="title" text-anchor="middle" font-size="16">TRIAGE OS: 7-Layer Framework</text>
 
-  <!-- Title -->
-  <text x="450" y="25" class="layer-title" text-anchor="middle" font-size="18">TRIAGE OS: 7-Layer Validation Framework</text>
+  <!-- L7 -->
+  <rect x="50" y="30" width="700" height="38" class="layer" rx="3"/>
+  <text x="70" y="50" class="title">Layer 7: Knowledge Base</text>
+  <text x="70" y="62" class="desc">Pattern Library + Blocklist | Auto-evolution</text>
+  <path d="M 400 68 L 400 75" class="arrow"/>
 
-  <!-- Layer 7 -->
-  <rect x="60" y="40" width="780" height="45" class="layer-box" rx="4"/>
-  <text x="80" y="62" class="layer-title">Layer 7: Knowledge Base</text>
-  <text x="80" y="76" class="layer-desc">Pattern Library + Blocklist | Auto-evolution</text>
-  <path d="M 450 85 L 450 95" class="arrow"/>
+  <!-- L6 -->
+  <rect x="50" y="75" width="700" height="38" class="layer" rx="3"/>
+  <text x="70" y="95" class="title">Layer 6: Checkpoint</text>
+  <text x="70" y="107" class="desc">Git + Audit Trail | State verification</text>
+  <path d="M 400 113 L 400 120" class="arrow"/>
 
-  <!-- Layer 6 -->
-  <rect x="60" y="95" width="780" height="45" class="layer-box" rx="4"/>
-  <text x="80" y="117" class="layer-title">Layer 6: Checkpoint</text>
-  <text x="80" y="131" class="layer-desc">Git + Audit Trail | State verification</text>
-  <path d="M 450 140 L 450 150" class="arrow"/>
+  <!-- L5 CORE -->
+  <rect x="30" y="120" width="740" height="48" class="layer core" rx="3"/>
+  <text x="70" y="142" class="title" fill="#48bb78">Layer 5: Validation Gate (CORE)</text>
+  <text x="70" y="156" class="desc" fill="#48bb78">Real Evidence Only | Success→Learning | Failure→Rollback</text>
+  <path d="M 400 168 L 400 175" class="arrow"/>
 
-  <!-- Layer 5 -->
-  <rect x="40" y="150" width="820" height="55" class="layer-box" rx="4" stroke="#48bb78" stroke-width="3"/>
-  <text x="80" y="172" class="layer-title" fill="#48bb78">Layer 5: Validation Gate (THE CORE)</text>
-  <text x="80" y="188" class="layer-desc">Real Evidence Only | Success → Learning | Failure → Rollback</text>
-  <path d="M 450 205 L 450 215" class="arrow"/>
+  <!-- L4 -->
+  <rect x="50" y="175" width="700" height="33" class="layer" rx="3"/>
+  <text x="70" y="193" class="title">Layer 4: Execution Tools</text>
+  <text x="70" y="203" class="desc">Git | Bash | Tests | Build | APIs</text>
+  <path d="M 400 208 L 400 215" class="arrow"/>
 
-  <!-- Layer 4 -->
-  <rect x="60" y="215" width="780" height="40" class="layer-box" rx="4"/>
-  <text x="80" y="235" class="layer-title">Layer 4: Execution Tools</text>
-  <text x="80" y="250" class="layer-desc">Git | Bash | Tests | Lint | Build | APIs | Validators</text>
-  <path d="M 450 255 L 450 265" class="arrow"/>
+  <!-- L3 -->
+  <rect x="50" y="215" width="700" height="40" class="layer" rx="3"/>
+  <text x="70" y="235" class="title">Layer 3: Agent Mesh (Parallelizable)</text>
+  <text x="70" y="250" class="desc">Code | QA | Research | Risk Agents</text>
+  <path d="M 400 255 L 400 262" class="arrow"/>
 
-  <!-- Layer 3 -->
-  <rect x="60" y="265" width="780" height="50" class="layer-box" rx="4"/>
-  <text x="80" y="287" class="layer-title">Layer 3: Agent Mesh (Parallelizable)</text>
-  <text x="80" y="303" class="layer-desc">Code Agent | QA Agent | Research Agent | Risk Agent</text>
-  <path d="M 450 315 L 450 325" class="arrow"/>
+  <!-- L2 -->
+  <rect x="50" y="262" width="700" height="33" class="layer" rx="3"/>
+  <text x="70" y="280" class="title">Layer 2: Core OS (Orchestrator)</text>
+  <text x="70" y="292" class="desc">Task routing, agent selection, validation</text>
+  <path d="M 400 297 L 400 304" class="arrow"/>
 
-  <!-- Layer 2 -->
-  <rect x="60" y="325" width="780" height="35" class="layer-box" rx="4"/>
-  <text x="80" y="348" class="layer-title">Layer 2: Core OS (Orchestrator)</text>
-  <path d="M 450 360 L 450 370" class="arrow"/>
+  <!-- L1 -->
+  <rect x="150" y="304" width="500" height="28" class="layer" rx="3"/>
+  <text x="400" y="323" class="title" text-anchor="middle">Layer 1: Input (Task + Constraints)</text>
 
-  <!-- Layer 1 -->
-  <rect x="150" y="370" width="600" height="35" class="layer-box" rx="4"/>
-  <text x="450" y="393" class="layer-title" text-anchor="middle">Layer 1: Input (Task + Constraints)</text>
-
-  <!-- Bottom legend -->
-  <text x="60" y="450" class="layer-desc" font-size="12">✓ Evidence-driven execution | ✓ Zero hallucination | ✓ Real metrics | ✓ Production validation</text>
+  <!-- Legend -->
+  <text x="50" y="360" class="desc">✓ Evidence-driven | ✓ Zero hallucination | ✓ Production validation | ✓ Real metrics</text>
 </svg>
