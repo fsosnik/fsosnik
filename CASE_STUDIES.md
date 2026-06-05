@@ -267,7 +267,7 @@ Deployment Time:        6-12 weeks
 
 Real problems need real solutions.
 
-**Contact**: [hey@sosnik.com.ar](mailto:hey@sosnik.com.ar)  
+**Contact**: [fersosnik@gmail.com](mailto:fersosnik@gmail.com)  
 **Company**: [bridger4u.com](https://bridger4u.com)  
 **LinkedIn**: [@fsosnik](https://linkedin.com/in/fsosnik)
 
