@@ -151,5 +151,3 @@ Premium web application for managing rentals, properties, income, expenses, and 
 ---
 
 **Built with honesty, evidence, and enterprise-grade standards.**
-
-*Last updated: June 5, 2026*
